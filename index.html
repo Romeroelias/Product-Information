@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Placement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patua+One&family=Roboto:wght@100&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Store any item with the required information.</h1>
+    <form class="form_container" id="form_container" method="get">
+        <label id="input_label" for="item">Enter an item:</label>
+        <input id="item" type="text" maxlength="10">
+        <br>
+        <label for="sales">Enter the monthly sales for this item:</label>
+        <input id="sales" type="number" maxlength="10">
+
+        <button type="button" id="submitButton">Submit</button>
+    </form>
+
+    <div class="table-heading">
+        <article class="headers">
+            <h4>Item</h4>
+            <h4>Popularity</h4>
+        </article>
+    </div>
+
+    <div id="userinput-container" class="userinput-container">
+        
+    </div>
+    </body>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+    </html>

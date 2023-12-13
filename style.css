@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "tajawal", sans-serif;
+    color: #fff;
+}
+
+body{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+    margin: 3rem;
+}
+
+.form_container{
+    margin: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    max-width: 30rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+.text{
+    font-size: 1.2rem;
+    padding-bottom: .6rem;
+}
+
+#submitButton{
+    margin-left: 20rem;
+    margin-top: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 45px;
+    background-color: black;
+    transition: all ease 0.2s;
+}
+
+#submitButton:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 400;
+}
+
+#item, #sales{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'tajawal', sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 6rem;
+    height: 1.6rem;
+    margin-right: .4rem;
+    list-style: none;
+}
+
+.table-heading{
+    max-width: 30rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    border: 1px solid;
+}
+
+.headers{
+    padding: 4px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.content_container{
+    border: 1px solid white;
+    padding: 20px;
+    margin: auto;
+    max-width: 30rem;
+}
+
+.newdiv-css{
+    border: 1px solid white;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+};
